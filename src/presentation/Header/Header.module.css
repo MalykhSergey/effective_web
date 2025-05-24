@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 48px;
+  background-color: #ed1d24;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.link {
+  font-size: 1rem;
+  color: rgb(255, 162, 0);
+  text-decoration: none;
+  position: relative;
+  font-family: 'Futura', system-ui;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.link:hover {
+  color: rgb(225, 132, 0);
+}
+
+.active {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}

@@ -1,0 +1,36 @@
+.card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    min-width: 100px;
+    min-height: 80px;
+    border: 1px solid #d9d9d9;
+}
+
+.logo {
+    max-height: 180px;
+    object-fit: cover;
+}
+.favorite{
+    position: absolute;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+    right: 0px;
+    fill: white;
+}
+.card:hover  .favorite{
+    opacity: 1;
+}
+.favorite.true{
+    fill: red;
+    transition: all 0.3s;
+}
+.title {
+    line-height: 24px;
+    text-align: start;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-weight: 700;
+    color: #ed1b3b;
+}

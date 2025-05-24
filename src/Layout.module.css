@@ -1,0 +1,6 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 48px;
+    flex-grow: 1;
+}
