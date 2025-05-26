@@ -1,0 +1,24 @@
+.page {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 24px;
+}
+
+.logo {
+    max-width: 400px;
+}
+
+.content {
+    max-width: 800px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.title {
+    font-size: 36px;
+}

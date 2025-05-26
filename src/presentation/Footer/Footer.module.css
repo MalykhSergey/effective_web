@@ -1,0 +1,21 @@
+.footer {  
+  padding: 24px 48px;
+  text-align: start;
+  background-color: #555555;
+  border-top: 1px solid #ddd;
+}
+.footerLogo {
+  height: 30px;
+}
+.footerText {
+  font-size: 14px;
+  color: white;
+}
+.footerLink {
+  color: white;
+  text-decoration: none;
+}
+.footerLink:hover {
+  text-decoration: underline;
+  color: white;
+}
